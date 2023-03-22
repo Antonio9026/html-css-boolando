@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+/* debug */
+/* header{
+    background-color: blue;
+    height: 60px;
+} */
+/* .navigator-left{
+    background-color: black;
+    width: 80px;
+    height: 20px;
+} */
+/* .logo{
+    background-color: red;
+ 
+} */
+/* .navigator-right{
+    background-color: black;
+    width: 80px;
+    height: 20px;
+
+} */
+
+
+/* regole header */
+header{
+    width: 100%;
+    background-color: #ff6900;
+    height: 70px;
+    border-bottom: solid 2px  #b8b8b8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.navigator-left{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    
+}
+.navigator-right{
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.identity{
+    margin-right: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none; 
+}
+.logo{
+    display: flex;
+    align-self: center; 
+    width: 150px;
+    height: 30px;
+}
+/* regole corpo centrale */
+
+.container{
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.row-container{
+  
+    display: flex;
+    justify-content:center ;
+    
+   
+}
+.product-clmn{
+    padding: 20px;
+    position: relative;
+}
+.product-clmn:hover .heart{
+    display: inline-block;
+
+}
+img{
+  width:450px;
+  
+}
+.label-red{
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+    color: white;
+}
+.label-green{
+    background-color: green;
+    padding: 5px;
+    width: 100px;
+    position: absolute;
+    bottom: 120px;
+    left: 70px;
+    color: white;
+}
+.heart{
+   
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: none;
+}
