@@ -4,29 +4,13 @@
     box-sizing: border-box;
   
 }
-/* debug */
-/* header{
-    background-color: blue;
-    height: 60px;
-} */
-/* .navigator-left{
-    background-color: black;
-    width: 80px;
-    height: 20px;
-} */
-/* .logo{
-    background-color: red;
- 
-} */
-/* .navigator-right{
-    background-color: black;
-    width: 80px;
-    height: 20px;
-
-} */
-
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+    
+}
 
 /* regole header */
+
 header{
     width: 100%;
     background-color: #ff6900;
@@ -68,6 +52,7 @@ header{
     width: 150px;
     height: 30px;
 }
+
 /* regole corpo centrale */
 
 .container{
@@ -75,23 +60,29 @@ header{
     margin-top: 80px;
 }
 .row-container{
-  
     display: flex;
     justify-content:center ;
     
-   
 }
 .product-clmn{
     padding: 20px;
     position: relative;
 }
-.product-clmn:hover .heart{
-    display: inline-block;
+
+.product-clmn:hover .shadow-img{
+display: inline-block;
+}
+
+img{
+  width:350px;
+  
 
 }
-img{
-  width:450px;
-  
+.shadow-img{
+   
+    position: absolute;
+   display: none;
+   right: 20px;
 }
 .label-red{
     background-color: red;
@@ -111,10 +102,49 @@ img{
     color: white;
 }
 .heart{
-   
     font-size: 40px;
     position: absolute;
     top: 30px;
-    right: 30px;
-    display: none;
+    right: 30px; 
+    
 }
+:hover.heart{   
+    color: red;
+   
+}
+
+.price{
+    color: red;
+}
+/* regole footer */
+footer{
+    height: 80px;
+    background-color: #1a1a1a;
+ 
+}
+.info-container{
+   max-width: 80%;
+   height: 80px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+   
+}
+.info {
+    margin-left: 200px;
+}
+.policy{
+    padding:4px ;
+    color: white;
+    text-decoration: none;
+
+}
+.social{
+   margin-right: -100px;
+    
+ }
+
+ 
