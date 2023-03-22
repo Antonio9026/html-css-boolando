@@ -74,7 +74,7 @@ display: inline-block;
 }
 
 img{
-  width:350px;
+  width:400px;
   
 
 }
@@ -125,16 +125,12 @@ footer{
     background-color: #1a1a1a;
  
 }
-.info-container{
-   max-width: 80%;
+.info-container{  
    height: 80px;
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    
-   
+    color: white;  
 }
 .info {
     margin-left: 200px;
