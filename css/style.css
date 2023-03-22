@@ -116,6 +116,9 @@ img{
 .price{
     color: red;
 }
+.no-discount{
+    text-decoration: line-through;
+}
 /* regole footer */
 footer{
     height: 80px;
