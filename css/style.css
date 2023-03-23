@@ -101,6 +101,15 @@ img{
     left: 70px;
     color: white;
 }
+.label-last{
+    background-color: green;
+    position: absolute;
+    padding: 5px;
+    width: 100px;
+    bottom: 120px;
+    left: 20px;
+    color: white;
+}
 .heart{
     font-size: 40px;
     position: absolute;
